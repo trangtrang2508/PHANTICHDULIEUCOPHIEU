@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 import yfinance as yf
 import seaborn as sns
-import mplfinance as mpf
 import warnings
 import plotly.graph_objects as go
 import altair as alt
