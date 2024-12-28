@@ -457,7 +457,6 @@ else:
             st.metric("MSE", f"{mse_SES_opt:.2f}")
             st.metric("RMSE", f"{rmse_SES_opt:.2f}")
             st.metric("MAPE", f"{mape_SES_opt:.2f} %")
-            st.metric("R²", f"{r2_SES_opt:.2f}")
 
         # Dự báo bằng Holt
         use_holt = st.checkbox("Holt")
